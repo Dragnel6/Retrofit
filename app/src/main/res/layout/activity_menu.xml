@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/material_dynamic_tertiary20"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="-36dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btPost"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_200"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/bt_posts"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btComent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_orange_dark"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/bt_comments"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btAlbum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_blue_dark"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/bt_albums"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_purple"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/bt_users"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btSalir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/bt_salir"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
